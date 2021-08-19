@@ -72,7 +72,7 @@ def help_command(bot, update):
 def main_menu(bot, update):
     kb = KeyBoardGPT()
     markup = kb.start_kb()
-    bot.message.reply_text("Веберете пункт меню или просто начинайте разговаривать)", reply_markup=markup)
+    bot.message.reply_text("Выберете пункт меню или просто начинайте разговаривать)", reply_markup=markup)
 
     return CHOOSING
 
@@ -135,7 +135,7 @@ def changing_params(bot, update):
         markup = kb.params_kb()
 
         bot.message.reply_text(f"Ошибка ввода! ")
-        bot.message.reply_text(f"Введите значение еще раз либо нажмите Back", reply_markup=markup)
+        bot.message.reply_text(f"Введите значение еще раз, либо нажмите Back", reply_markup=markup)
         return NEW_VALUE
 
 
@@ -149,7 +149,7 @@ def clear_data(bot, update):
     if db_instance.clear_dialogue() == True:
         bot.message.reply_text('Все диалоги удалены из базы.', reply_markup=markup)
     else:
-        bot.message.reply_text('Что то пошло не так...', reply_markup=markup)
+        bot.message.reply_text('Что-то пошло не так...', reply_markup=markup)
     return CHOOSING
 
 
@@ -236,7 +236,7 @@ def changing_style_base_params(bot, update):
         markup = kb.params_style_main_kb()
 
         if up_param[0] == 'device[0:cpu, 1:cuda]':
-            bot.message.reply_text(f"Не, сорри, у нас только cpu. Тут как бы без вариантов", reply_markup=markup)
+            bot.message.reply_text(f"Не, сорри, у нас только cpu. Тут как-бы без вариантов", reply_markup=markup)
             if update.user_data:
                 del update.user_data[key]
             return STYLE_CONT_CHOOSE
@@ -252,7 +252,7 @@ def changing_style_base_params(bot, update):
         markup = kb.params_style_kb()
 
         bot.message.reply_text(f"Ошибка ввода! ")
-        bot.message.reply_text(f"Введите значение еще раз либо нажмите Back", reply_markup=markup)
+        bot.message.reply_text(f"Введите значение еще раз, либо нажмите Back", reply_markup=markup)
         return NEW_STYLE_VALUE
 
 
@@ -293,7 +293,7 @@ def content_layers(bot, update):
                            f'conv5_1(512,512): {con_list[12]}\nconv5_2(512,512): {con_list[13]}\n'
                            f'conv5_3(512,512): {con_list[14]}\nconv5_4(512,512): {con_list[15]}')
 
-    bot.message.reply_text('Что то менять будем?', reply_markup=markup)
+    bot.message.reply_text('Что-то менять будем?', reply_markup=markup)
 
     return CONTENT_LAYERS_CHOICE
 
@@ -346,7 +346,7 @@ def changing_cl_params(bot, update):
         markup = kb.params_style_kb()
 
         bot.message.reply_text(f"Ошибка ввода! ")
-        bot.message.reply_text(f"Введите значение еще раз либо нажмите Back", reply_markup=markup)
+        bot.message.reply_text(f"Введите значение еще раз, либо нажмите Back", reply_markup=markup)
         return CONTENT_LAYERS_CHOICE
 
 
@@ -373,7 +373,7 @@ def style_layers(bot, update):
                            f'conv5_1(512,512): {stl_list[12]}\nconv5_2(512,512): {stl_list[13]}\n'
                            f'conv5_3(512,512): {stl_list[14]}\nconv5_4(512,512): {stl_list[15]}')
 
-    bot.message.reply_text('Что то менять будем?', reply_markup=markup)
+    bot.message.reply_text('Что-то менять будем?', reply_markup=markup)
 
     return STYLE_LAYERS_CHOICE
 
@@ -444,7 +444,7 @@ def reset_layers(bot, update):
 
         bot.message.reply_text("Слои VGG в исходном состоянии.", reply_markup=markup)
     else:
-        bot.message.reply_text("Что то пошло не так.", reply_markup=markup)
+        bot.message.reply_text("Что-то пошло не так.", reply_markup=markup)
     return TYPING_REPLY
 
 
