@@ -2,7 +2,7 @@ import os
 
 
 TOKEN = '1900850036:AAHinBkKM69bwZRVYdHqJMHQS3ePx2ZLSwg'
-IP_ADDRESS = '20.106.188.252'
+IP_ADDRESS = '62.141.41.190'
 PORT = int(os.environ.get('PORT', '8443'))
 # https://api.telegram.org/bot1900850036:AAHinBkKM69bwZRVYdHqJMHQS3ePx2ZLSwg/getWebhookInfo
 # {"ok":true,"result":{"url":"https://20.106.188.252/1900850036:AAHinBkKM69bwZRVYdHqJMHQS3ePx2ZLSwg","has_custom_certificate":true,"pending_update_count":3,"last_error_date":1628255665,"last_error_message":"Wrong response from the webhook: 404 Not Found","max_connections":40,"ip_address":"20.106.188.252"}}
