@@ -135,18 +135,21 @@ class DBManager:
 
 
     def get_dialogue(self):
-        with self.connect as conn:
-            cursor = conn.cursor()
+        try:
+            with self.connect as conn:
+                cursor = conn.cursor()
 
-            row_query = """SELECT * FROM  users WHERE user_id=?"""
-            value_query = (self.chat_id,)
-            result = cursor.execute(row_query, value_query)
-            records = result.fetchmany(1)
+                row_query = """SELECT * FROM  users WHERE user_id=?"""
+                value_query = (self.chat_id,)
+                result = cursor.execute(row_query, value_query)
+                records = result.fetchmany(1)
 
-            if records[0][4] is not None and len(records[0][4]) > 0:
-                return json.loads(records[0][4])
-            else:
-                return None
+                if records[0][4] is not None and len(records[0][4]) > 0:
+                    return json.loads(records[0][4])
+                else:
+                    return None
+        except Exception as ex:
+            return None
 
 
     def rewrite_dialogue(self, data):
