@@ -1,7 +1,7 @@
 import os
 
-
-TOKEN = '1900850036:AAHinBkKM69bwZRVYdHqJMHQS3ePx2ZLSwg'
+# 1900850036:AAHinBkKM69bwZRVYdHqJMHQS3ePx2ZLSwg
+TOKEN = '1988450014:AAELqMluJwU-XjTo5HswSnQicVecQQVg1CQ'
 IP_ADDRESS = '62.141.41.190'
 PORT = int(os.environ.get('PORT', '8443'))
 # https://api.telegram.org/bot1900850036:AAHinBkKM69bwZRVYdHqJMHQS3ePx2ZLSwg/getWebhookInfo

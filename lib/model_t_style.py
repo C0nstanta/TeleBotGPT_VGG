@@ -56,7 +56,7 @@ class ImagePreprocessing:
             image = self.loader(image).unsqueeze(0)
             return image.to(device, dtype=torch.float)
         else:
-            return False
+            return None
 
 
     def im_detorch(self, img):

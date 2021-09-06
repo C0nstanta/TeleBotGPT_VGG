@@ -3,6 +3,9 @@ import numpy as np
 import os
 
 
+
+
+
 params = {
     'max_length': 256,
     'no_repeat_ngram_size': 3,
@@ -25,11 +28,11 @@ class Model:
         self.step = 0
 
 
-    def get_response(self, user_answer, params, db_instance):
+    def get_response(self, chat_id, user_answer, params, db_gpt):
         self.conversation_text = []
 
-        result = db_instance.get_dialogue()
-        if result is not None:
+        result = db_gpt.get_dialogue(chat_id)
+        if result:
             self.conversation_text.extend(result)
 
         params = self.compile_params(params)
@@ -40,7 +43,7 @@ class Model:
         self.conversation_text.append({"speaker": 1, "text": qpt_answer})
 
         print(self.conversation_text)
-        db_instance.rewrite_dialogue(self.conversation_text)
+        db_gpt.rewrite_dialogue(chat_id, self.conversation_text)
 
         return qpt_answer
 
