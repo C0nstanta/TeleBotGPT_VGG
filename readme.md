@@ -81,13 +81,22 @@ answer of any length.
 
 ================================
 
-#Model Vgg19
+# Model Vgg19
+
+<table>
+<tbody>
+<tr>
+<td align="center"><img src="/images/img4.png" alt="greeting" width="360" height="160" /></td>
+</tr>
+</tbody>
+</table>
+
 To work with the model, you first need to upload two images.
 The one that will be responsible for the formation of the style.
 And the one that will be responsible for the content.
 
-**Upload Style Image** - upload our style.
-**Upload Content Image** - uploading our content.
+<b>Upload Style Image</b> - upload our style.
+<b>Upload Content Image</b> - uploading our content.
 
 ##Options:
 The parameters are divided into 2 parts.
