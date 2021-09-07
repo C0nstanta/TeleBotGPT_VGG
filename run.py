@@ -1,6 +1,4 @@
-# TODO: multithread
-
-# !/usr/bin/env python3
+#!/home/TeleBotGPT_VGG/venv/bin/python
 
 from config import TOKEN, IP_ADDRESS, PORT
 
