@@ -52,21 +52,28 @@ The parameters are divided into 2 parts.
 Part 1 - global parameters.
 
 Those - which are used directly when generating a new image.
+
 epoch number - the number of epochs.
 It usually takes about 500-1000 epochs to generate a normal result.
 But on the CPU, we will wait forever for this result.
 Therefore, the recommended parameter is 20-50 epochs.
 Nothing normal will come of it.
-But how else without CUDA -?
+What we can to do without CUDA -?
+
 show cost - times in how many epochs we will watch our losses.
 But again, this does not work on the bot.
 Because until we completely go through the process, the result will not return.
+
 device - as it was written above - we only have a CPU.
+
 image size - the size of the generated image. The maximum value is 512.
 
 
 Part 2 - layer parameters.
 
-At the moment, there are accepted general parameters.
-But you can play with them and adjust them.
-True, how to look at the result if you can't generate a normal image ... question ...
+For all layers, there are generally accepted parameters that are used to transform the style.
+We can easily change these parameters for each layer of the neural network and look at the result.
+That is, at will, we can turn on / off each layer of the neural network and see what changes in the generated image.
+
+You can play with all of them and adjust them.
+But, how to look at the result if you can't generate a normal image(due to CPU) ... question ...
