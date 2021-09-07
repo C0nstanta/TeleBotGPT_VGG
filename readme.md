@@ -1,7 +1,8 @@
 # GPT3 Model:
 
-![Greeting](/images/img1.png)
-![/help](/images/img2.png)
+<a href="Greeting">
+<img src="/images/img1.png" align="left" height="200" width="120" ></a>
+
 
 
 ## Options:
