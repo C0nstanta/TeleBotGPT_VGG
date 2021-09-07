@@ -8,8 +8,8 @@
 <table>
 <tbody>
 <tr>
-<td ><img src="/images/img1.png" alt="greeting" width="250" height="450" /></td>
-<td ><img src="/images/img2.png" alt="/help" width="250" height="450" /></td>
+<td ><img src="/images/img1.png" alt="greeting" width="300" height="550" /></td>
+<td ><img src="/images/img2.png" alt="/help" width="300" height="550" /></td>
 </tr>
 </tbody>
 </table>
@@ -151,7 +151,7 @@ Because until we completely go through the process, the result will not return.
 <table>
 <tbody>
 <tr>
-<td align="center"><img src="/images/img9.png" alt="greeting" width="180" height="320" /></td>
+<td align="center"><img src="/images/img9.png" alt="greeting" width="300" height="550" /></td>
 </tr>
 </tbody>
 </table>
