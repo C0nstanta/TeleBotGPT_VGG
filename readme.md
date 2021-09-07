@@ -16,9 +16,24 @@
 </tbody>
 </table>
 
-
 ---
+## Start GPT3 Menu
+In this menu, you can select items such as:
+- Start a conversation with the bot
+- Clearing dialogs that you previously conducted with the bot
+- Go to the menu for changing the basic parameters of GPT3
+- Return to main menu
 
+<table>
+<tbody>
+<tr>
+<td align="center"><img src="/images/img3.png" alt="greeting" width="320" height="140" /></td>
+ 
+</tr>
+<tr>
+
+</tbody>
+</table>
 
 ## Options:
 **max_length** - Maximum number of tokens, which the model remembers.
