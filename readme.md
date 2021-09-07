@@ -1,7 +1,10 @@
-#GPT3 Model:
-##Options:
-[Greeting][/images/img1.png]
-[/help][/images/img2.png]
+# GPT3 Model:
+
+![Greeting](/images/img1.png)
+![/help](/images/img2.png)
+
+
+## Options:
 **max_length** - Maximum number of tokens, which the model remembers.
 The recommended parameter is 256. The maximum is 512. 
 If there is more, it will be 512. (not done yet)
