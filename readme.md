@@ -8,12 +8,13 @@
 <a href="/help">
 <img src="/images/img2.png" align="left" height="300" width="180" ></a>
 
+- To get help, write /help
+
+
 ---
 ## Start GPT3 menu
 <a href="start gpt">
-<img src="/images/img3.png" align="left" height="300" width="180" ></a>
-
-- To get help, write /help
+<img src="/images/img3.png" align="left" height="120" width="300" ></a>
 
 In this menu, you can select items such as:
 - Start a conversation with the bot
