@@ -52,7 +52,6 @@ If there is more, it will be 512. (not done yet)
 <b>no_repeat_ngram_size</b> - Penalizes for the number of repetitions.
 
 <b>do_sample</b> - The value can be 0 or 1.
-
 If we enable - set 1, then we automatically disable the <b>top_p</b> and <b>top_k</b> parameters.
 If we have 1, we start choosing from the generated words, the next word based on conditional probability.
 Increases the likelihood of words that suit us better.
@@ -62,9 +61,8 @@ Increases the likelihood of words that suit us better.
 <b>top_p</b> - Same as top_k - only in% (from 0 to 1)
 The more% - the fewer words will participate in the further selection to find the desired word.
 
-<b>temperature</b> - A value from 0 to 3 (If more, it will be 3).
+<b>temperature</b> - A value from 0 to 3 (If more, it will be 3). <br>
 As Mikhail Konstantinov says - "Temperature is how your model hallucinates."
-
 0 - The model is completely adequate and boring.
 3 - delirium - delirium.
 
@@ -80,6 +78,7 @@ answer of any length.
 1 - Short answer.
 2 - Average answer.
 3 - Long answer.
+
 ================================
 
 #Model Vgg19
