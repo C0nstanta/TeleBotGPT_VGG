@@ -1,32 +1,29 @@
 # GPT3 Model:
+<br>
+<b>- To get started with the bot, write /start</b>
+
+<b>- To get help, write /help</b>
 
 <a href="Greeting">
 <img src="/images/img1.png" align="left" height="300" width="180" ></a>
-<br>
-<b>- To get started with the bot, write /start</b>
 
 <a href="/help">
 <img src="/images/img2.png" align="left" height="300" width="180" ></a>
 
-- To get help, write /help
-
-
----
-## Start GPT3 menu
-<a href="start gpt">
+<a href="start menu">
 <img src="/images/img3.png" align="left" height="120" width="300" ></a>
 
-In this menu, you can select items such as:
-- Start a conversation with the bot
-- Clearing dialogs that you previously conducted with the bot
-- Go to the menu for changing the basic parameters of GPT3
-- Return to main menu
-
-## Options:
 <a href="options">
 <img src="/images/img4.png" align="left" height="300" width="180" ></a>
 <a href="options2">
 <img src="/images/img5.png" align="left" height="300" width="180" ></a>
+
+
+
+---
+
+
+## Options:
 **max_length** - Maximum number of tokens, which the model remembers.
 The recommended parameter is 256. The maximum is 512. 
 If there is more, it will be 512. (not done yet)
