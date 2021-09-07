@@ -8,17 +8,11 @@
 <table>
 <tbody>
 <tr>
-<td ><img src="/images/img1.png" alt="greeting" width="180" height="300" /></td>
-<td ><img src="/images/img2.png" alt="/help" width="180" height="300" /></td>
+<td ><img src="/images/img1.png" alt="greeting" width="250" height="450" /></td>
+<td ><img src="/images/img2.png" alt="/help" width="250" height="450" /></td>
 </tr>
 <tr>
-<td>&nbsp;</td>
-<td >&nbsp;</td>
-</tr>
-<tr>
-<td >&nbsp;</td>
-<td >&nbsp;</td>
-</tr>
+
 </tbody>
 </table>
 
