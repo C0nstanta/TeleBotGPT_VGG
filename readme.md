@@ -8,8 +8,8 @@
 <table>
 <tbody>
 <tr>
-<td ><img src="/images/img1.png" alt="greeting" width="300" height="160" /></td>
-<td ><img src="/images/img2.png" alt="/help" width="300" height="160" /></td>
+<td ><img src="/images/img1.png" alt="greeting" width="180" height="300" /></td>
+<td ><img src="/images/img2.png" alt="/help" width="180" height="300" /></td>
 </tr>
 <tr>
 <td>&nbsp;</td>
