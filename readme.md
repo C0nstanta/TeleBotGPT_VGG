@@ -5,11 +5,11 @@
 <b>- To get help, write /help</b>
 
 
-<table style="height: 441px;" width="548">
+<table style="height: 441px;" width="320">
 <tbody>
 <tr>
-<td style="width: 266px;"><img src="/images/img1.png" alt="greeting" width="300" height="180" /></td>
-<td style="width: 266px;"><img src="/images/img2.png" alt="/help" width="300" height="180" /></td>
+<td style="width: 266px;"><img src="/images/img1.png" alt="greeting" width="300" height="160" /></td>
+<td style="width: 266px;"><img src="/images/img2.png" alt="/help" width="300" height="160" /></td>
 </tr>
 <tr>
 <td style="width: 266px;">&nbsp;</td>
