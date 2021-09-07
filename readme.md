@@ -4,20 +4,23 @@
 
 <b>- To get help, write /help</b>
 
-<a href="Greeting">
-<img src="/images/img1.png" align="left" height="300" width="180" ></a>
 
-<a href="/help">
-<img src="/images/img2.png" align="left" height="300" width="180" ></a>
-
-<a href="start menu">
-<img src="/images/img3.png" align="left" height="120" width="300" ></a>
-
-<a href="options">
-<img src="/images/img4.png" align="left" height="300" width="180" ></a>
-<a href="options2">
-<img src="/images/img5.png" align="left" height="300" width="180" ></a>
-
+<table style="height: 441px;" width="548">
+<tbody>
+<tr>
+<td style="width: 266px;"><img src="/images/img1.png" alt="greeting" width="300" height="180" /></td>
+<td style="width: 266px;"><img src="/images/img2.png" alt="/help" width="300" height="180" /></td>
+</tr>
+<tr>
+<td style="width: 266px;">&nbsp;</td>
+<td style="width: 266px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="width: 266px;">&nbsp;</td>
+<td style="width: 266px;">&nbsp;</td>
+</tr>
+</tbody>
+</table>
 
 
 ---
