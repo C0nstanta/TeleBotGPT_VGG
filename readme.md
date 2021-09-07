@@ -145,8 +145,13 @@ Because until we completely go through the process, the result will not return.
 <tr>
 <td align="center"><img src="/images/img8.png" alt="greeting" width="360" height="130" /></td>
 </tr>
+</tbody>
+</table>
+
+<table>
+<tbody>
 <tr>
-<td align="center"><img src="/images/img9.png" alt="greeting" width="360" height="130" /></td>
+<td align="center"><img src="/images/img9.png" alt="greeting" width="180" height="320" /></td>
 </tr>
 </tbody>
 </table>
