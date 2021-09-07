@@ -86,7 +86,7 @@ answer of any length.
 <table>
 <tbody>
 <tr>
-<td align="center"><img src="/images/img4.png" alt="greeting" width="360" height="160" /></td>
+<td align="center"><img src="/images/img6.png" alt="greeting" width="400" height="170" /></td>
 </tr>
 </tbody>
 </table>
@@ -98,13 +98,29 @@ And the one that will be responsible for the content.
 <b>Upload Style Image</b> - upload our style.
 <b>Upload Content Image</b> - uploading our content.
 
-##Options:
+## Options:
 The parameters are divided into 2 parts.
+
+<table>
+<tbody>
+<tr>
+<td align="center"><img src="/images/img7.png" alt="greeting" width="360" height="130" /></td>
+</tr>
+</tbody>
+</table>
 
 
 ###Part 1 - global parameters.
 
-Those - which are used directly when generating a new image.
+<table>
+<tbody>
+<tr>
+<td align="center"><img src="/images/img10.png" alt="greeting" width="400" height="170" /></td>
+</tr>
+</tbody>
+</table>
+
+Params - which are used directly when generating a new image.
 
 **epoch number** - the number of epochs.
 It usually takes about 500-1000 epochs to generate a normal result.
@@ -123,6 +139,17 @@ Because until we completely go through the process, the result will not return.
 
 
 ###Part 2 - layer parameters.
+
+<table>
+<tbody>
+<tr>
+<td align="center"><img src="/images/img8.png" alt="greeting" width="360" height="130" /></td>
+</tr>
+<tr>
+<td align="center"><img src="/images/img9.png" alt="greeting" width="360" height="130" /></td>
+</tr>
+</tbody>
+</table>
 
 For all layers, there are generally accepted parameters that are used to transform the style.
 We can easily change these parameters for each layer of the neural network and look at the result.
