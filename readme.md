@@ -2,8 +2,8 @@
 
 <a href="Greeting">
 <img src="/images/img1.png" align="left" height="300" width="180" ></a>
-
-- To get started with the bot, write /start
+<br>
+<b>- To get started with the bot, write /start</b>
 
 <a href="/help">
 <img src="/images/img2.png" align="left" height="300" width="180" ></a>
